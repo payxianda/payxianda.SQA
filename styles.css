@@ -1,0 +1,60 @@
+/* 设置全局字体和背景 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* 浅蓝色背景 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 页眉样式 */
+header {
+    background-color: #003366; /* 深蓝色背景 */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 主体内容样式 */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #003366; /* 深蓝色标题 */
+}
+
+/* 支付按钮样式 */
+button {
+    background-color: #003366; /* 深蓝色按钮 */
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #002244; /* 更深的蓝色 */
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #003366; /* 深蓝色背景 */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
